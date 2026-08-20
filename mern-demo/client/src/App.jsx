@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [students, setStudents] = useState([]);
   const [formData, setFormData] = useState({ studentId: '', name: '', email: '' });
-  const API_URL = 'http://localhost:5000/api/students';
+const API_URL = 'https://shiny-fiesta-7vgv4gw555p7fx9vv-5000.app.github.dev/api/students';
 
   // Lấy danh sách sinh viên
   const fetchStudents = async () => {
