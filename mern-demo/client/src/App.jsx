@@ -54,7 +54,7 @@ const API_URL = 'http://localhost:5000/api/students';
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial' }}>
-      <h2 style={{ color: '#2c3e50' }}>🎓 Quản lý Sinh viên (MERN Stack)</h2>
+      <h2 style={{ color: '#2c3e50' }}>Quản lý Sinh viên v2.0 (MERN Stack)</h2>
       
       <form onSubmit={handleSubmit} style={{ marginBottom: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '5px' }}>
         <input name="studentId" placeholder="MSSV" value={formData.studentId} onChange={handleChange} required style={{ marginRight: '10px', padding: '5px' }} />
